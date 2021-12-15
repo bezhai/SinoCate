@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="GPL v3"
+[[mods]]
+modId="cate"
+version="${file.jarVersion}"
+displayName="Cate"
+#logoFile="logo.png"
+credits=""
+authors="GregTao, Peakstep, PoseidonLi, Tapio"
+description='''
+'''
+[[dependencies.cate]]
+    modId="forge"
+    mandatory=true
+    versionRange="[38,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.cate]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
